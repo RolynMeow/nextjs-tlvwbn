@@ -1,6 +1,5 @@
-function greet(name) {
-  return 'Hello' + name;
+var greetings = require('./greet');
 
-}
-
-module.exports = greet;
+console.log(greetings('Rolyn'));
+console.log(congratulations('Rolyn'));
+console.log(bye('Rolyn'));
